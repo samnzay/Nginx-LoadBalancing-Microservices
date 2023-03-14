@@ -10,9 +10,6 @@ build-app: ## Build app containers
 	@cd app
 	@docker build -t nodejs-app .
 
-down: ## Stop containers and remove them
-	@docker-compose down
-
 up: ## Start containers
 	@docker-compose up
 

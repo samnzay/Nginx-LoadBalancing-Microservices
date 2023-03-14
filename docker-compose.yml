@@ -15,3 +15,7 @@ services:
     image: nodejs-app
     environment:
       - APPID=2222
+  node-app3:
+    image: nodejs-app
+    environment:
+      - APPID=3333
